@@ -1,14 +1,11 @@
-#include "geeniemainwindow.h"
+#include "menuebar.h"
 #include <QApplication>
-#include "geenie.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    /*GEENIEMainWindow w;
-    w.show();*/
-
-    GEENIE g;
+    Menuebar w;
+    w.show();
 
     return a.exec();
 }
